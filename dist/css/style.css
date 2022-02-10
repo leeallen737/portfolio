@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #666;
+}
+
+.header {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px 0 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .nav-left {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+.header .nav-left .profile-pic {
+  height: auto;
+  width: 40px;
+  margin-right: 10px;
+}
+.header .nav-right {
+  cursor: pointer;
+}
+.header .nav-right .hamburger {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin-bottom: 4px;
+  margin-right: 20px;
+  background: #333;
+  border-radius: 5px;
+}
+.header .nav-right .hamburger:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.main-container {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100vw;
+}
+.main-container .hero-image {
+  width: 100%;
+  height: auto;
+}
+.main-container .about-me {
+  padding: 25px 40px;
+  line-height: 1.5rem;
+  color: #666;
+}
+.main-container .about-me h1 {
+  color: #333;
+  font-size: 36px;
+}
+.main-container .about-me h5 {
+  color: #0099e5;
+  transition: color 5s;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.main-container .about-me > * {
+  margin-bottom: 10px;
+}
+.main-container .about-me > :nth-last-child(1) {
+  margin-bottom: 0;
+}
+.main-container .button {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  padding: 10px 40px;
+  background-color: #fff;
+  color: #333;
+  border: #0099e5 solid 2px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.main-container .button:hover {
+  color: #fff;
+  transition: 1s;
+  background-color: #0099e5;
+}
+
+/*# sourceMappingURL=style.css.map */
