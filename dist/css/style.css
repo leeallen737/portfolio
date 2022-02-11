@@ -1,3 +1,14 @@
+.blue-line {
+  height: 2px;
+  width: 100%;
+  background-color: #0099e5;
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -79,16 +90,88 @@ body {
   margin-bottom: 15px;
   padding: 10px 40px;
   background-color: #fff;
-  color: #333;
+  color: #0099e5;
   border: #0099e5 solid 2px;
   font-weight: 500;
   font-size: 0.9rem;
   cursor: pointer;
 }
 .main-container .button:hover {
-  color: #fff;
   transition: 1s;
+  background-color: #e6e1e1;
+  color: #333;
+  scale: 0.1;
+}
+
+.skills-section {
+  margin: 40px;
+}
+.skills-section .skills-containers {
+  margin: 10px 0;
+}
+.skills-section .skills-containers:nth-child(5) {
+  margin-bottom: 30px;
+}
+.skills-section .skills-containers .skills-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+.skills-section .skills-containers .skills-wrap h6 {
+  font-size: medium;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands, .skills-section .skills-containers .skills-wrap h6 .fa-solid {
+  margin-left: 10px;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-js, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-js {
+  color: #323330;
+  background-color: #f0db4f;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-sass, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-sass {
+  color: #bf4080;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-html5, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-html5 {
+  color: red;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-react, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-react {
+  color: #61dbfb;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-gear, .skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-terminal, .skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-server, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-gear, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-terminal, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-server {
+  font-size: small;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-terminal, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-terminal {
+  color: green;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-server, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-server {
+  color: #323330;
+  background-color: #f0db4f;
+}
+.skills-section .skills-containers .skills-wrap h6 .fa-brands.fa-gear, .skills-section .skills-containers .skills-wrap h6 .fa-solid.fa-gear {
+  color: #666;
+}
+.skills-section .skills-containers .skills-wrap p {
+  font-size: 0.7em;
+  color: #666;
+}
+
+.progress-bar-outline {
+  height: 10px;
+  width: 100%;
+  border: 1px solid #0099e5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+}
+.progress-bar-outline .progress-bar {
+  transition: 3s;
   background-color: #0099e5;
+  width: 68%;
+  height: 5px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
