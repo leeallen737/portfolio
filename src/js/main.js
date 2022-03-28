@@ -15,3 +15,4 @@ slideMenu.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", () => {
     slideMenu.classList.remove('open')
 });
+
