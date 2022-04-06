@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "my protfolio of projects",
-  "main": "index.html",
+  "main": "https://github.com/leeallen737/portfolio/",
   "scripts": {
     "scss": "sass src/sass:dist/css",
     "concat:js": "concat-glob-cli -f src/js/**/*.js -o dist/js/bundle.js",
