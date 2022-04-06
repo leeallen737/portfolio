@@ -138,10 +138,9 @@ body {
   cursor: pointer;
 }
 .button:hover {
-  transition: all 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   background-color: #e6e1e1;
   color: #333;
-  scale: 0.1;
 }
 
 .experience-container {

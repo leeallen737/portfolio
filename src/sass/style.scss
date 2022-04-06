@@ -148,10 +148,9 @@ body {
     max-width: 200px;
     cursor: pointer;
     &:hover {
-        transition: all .3s ease-in-out;
+        transition: .3s ease-in-out;
         background-color: rgb(230, 225, 225);
         color: #333;
-        scale: 0.1;
     }
 }
 
