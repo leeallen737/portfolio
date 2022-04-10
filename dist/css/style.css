@@ -149,47 +149,68 @@ h2 {
   margin-bottom: 50px;
 }
 
-.skills-section, .experience-container {
+.skills-section,
+.experience-container {
   margin: 40px;
 }
-.skills-section h2, .experience-container h2 {
+.skills-section h2,
+.experience-container h2 {
   margin-top: 40px;
 }
-.skills-section .skills-containers, .experience-container .skills-containers {
+.skills-section .skills-containers,
+.experience-container .skills-containers {
   margin: 10px 0;
 }
-.skills-section .skills-containers:nth-child(5), .experience-container .skills-containers:nth-child(5) {
+.skills-section .skills-containers:nth-child(5),
+.experience-container .skills-containers:nth-child(5) {
   margin-bottom: 30px;
 }
-.skills-section .skills-containers:nth-child(10), .experience-container .skills-containers:nth-child(10) {
+.skills-section .skills-containers:nth-child(10),
+.experience-container .skills-containers:nth-child(10) {
   margin-bottom: 30px;
 }
-.skills-section .skills-containers .skills-wrap, .experience-container .skills-containers .skills-wrap {
+.skills-section .skills-containers .skills-wrap,
+.experience-container .skills-containers .skills-wrap {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3px;
 }
-.skills-section .skills-containers .skills-wrap h6, .experience-container .skills-containers .skills-wrap h6 {
+.skills-section .skills-containers .skills-wrap h6,
+.experience-container .skills-containers .skills-wrap h6 {
   font-size: medium;
   font-weight: 400;
   display: flex;
   align-items: center;
 }
-.skills-section .skills-containers .skills-wrap p, .experience-container .skills-containers .skills-wrap p {
+.skills-section .skills-containers .skills-wrap p,
+.experience-container .skills-containers .skills-wrap p {
   font-size: 0.7em;
   color: #666;
 }
 
-.fa-js, .fa-react {
+.fa-node {
   position: absolute;
   top: 6px;
   right: 6px;
 }
 
-.fa-sass {
+.fa-sass,
+.fa-npm,
+.fa-terminal {
   position: absolute;
   top: 6px;
   right: 5px;
+}
+
+.fa-github,
+.fa-js,
+.fa-react,
+.fa-server,
+.fa-gear,
+.fa-linux {
+  position: absolute;
+  top: 6px;
+  right: 7px;
 }
 
 .progress-bar-outline {
@@ -472,7 +493,8 @@ form .form-control {
   position: relative;
   width: 100%;
 }
-form .form-control input, form .form-control textarea {
+form .form-control input,
+form .form-control textarea {
   border: 1px solid #e6e1e1;
   border-radius: 3px;
   display: block;
@@ -545,7 +567,8 @@ form .form-control i.fa-circle-check {
     display: flex;
   }
 
-  .header, .side-navigation {
+  .header,
+.side-navigation {
     display: none;
   }
 
